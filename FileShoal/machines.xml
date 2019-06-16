@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<ArrayOfMachineConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MachineConfiguration>
+    <Name>Machine_I</Name>
+    <Address>192.168.0.50</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_II</Name>
+    <Address>192.168.0.55</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_III</Name>
+    <Address>192.168.0.3</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_IV</Name>
+    <Address>192.168.0.4</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_V</Name>
+    <Address>192.168.0.5</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_VI</Name>
+    <Address>192.168.0.6</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_VII</Name>
+    <Address>192.168.0.7</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_VIII</Name>
+    <Address>192.168.0.8</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_IX</Name>
+    <Address>192.168.0.9</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_X</Name>
+    <Address>192.168.0.10</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XI</Name>
+    <Address>192.168.0.11</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XII</Name>
+    <Address>192.168.0.12</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XIII</Name>
+    <Address>192.168.0.13</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XIV</Name>
+    <Address>192.168.0.14</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XV</Name>
+    <Address>192.168.0.15</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XVI</Name>
+    <Address>192.168.0.16</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XVII</Name>
+    <Address>192.168.0.17</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XVIII</Name>
+    <Address>192.168.0.18</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XIX</Name>
+    <Address>192.168.0.19</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XX</Name>
+    <Address>192.168.0.20</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXI</Name>
+    <Address>192.168.0.21</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXII</Name>
+    <Address>192.168.0.22</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXIII</Name>
+    <Address>192.168.0.23</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXIV</Name>
+    <Address>192.168.0.24</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXV</Name>
+    <Address>192.168.0.25</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXVI</Name>
+    <Address>192.168.0.26</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXVII</Name>
+    <Address>192.168.0.27</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXVIII</Name>
+    <Address>192.168.0.28</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXIX</Name>
+    <Address>192.168.0.29</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXX</Name>
+    <Address>192.168.0.30</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXXI</Name>
+    <Address>192.168.0.31</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXXII</Name>
+    <Address>192.168.0.32</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXXIII</Name>
+    <Address>192.168.0.33</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXXIV</Name>
+    <Address>192.168.0.34</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXXV</Name>
+    <Address>192.168.0.35</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXXVI</Name>
+    <Address>192.168.0.36</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXXVII</Name>
+    <Address>192.168.0.37</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXXVIII</Name>
+    <Address>192.168.0.38</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XXXIX</Name>
+    <Address>192.168.0.39</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XL</Name>
+    <Address>192.168.0.40</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XLI</Name>
+    <Address>192.168.0.41</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XLII</Name>
+    <Address>192.168.0.42</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XLIII</Name>
+    <Address>192.168.0.43</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>true</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XLIV</Name>
+    <Address>192.168.0.44</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+  <MachineConfiguration>
+    <Name>Machine_XLV</Name>
+    <Address>192.168.0.45</Address>
+    <Fingerprint>ssh-rsa 2048 ABCDE/ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890=</Fingerprint>
+    <ActiveTarget>false</ActiveTarget>
+  </MachineConfiguration>
+</ArrayOfMachineConfiguration>

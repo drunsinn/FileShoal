@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FileShoal.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MachineConfigPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\Public\FileShoal\machines.xml</Value>
+    </Setting>
+    <Setting Name="RemotePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">nc_prog</Value>
+    </Setting>
+    <Setting Name="RemoteBasePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/mnt/tnc/</Value>
+    </Setting>
+    <Setting Name="RemoteUserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">user</Value>
+    </Setting>
+    <Setting Name="PrivateKeyPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\Public\FileShoal\rsa-key.ppk</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
