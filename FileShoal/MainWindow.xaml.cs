@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.Windows.Input;
 using System.Xml.Serialization;
 using WinSCP;
+using Application = System.Windows.Application;
 using Binding = System.Windows.Data.Binding;
 using DragEventArgs = System.Windows.DragEventArgs;
 using KeyEventArgs = System.Windows.Input.KeyEventArgs;
@@ -25,7 +26,47 @@ namespace FileShoal
         {
             InitializeComponent();
 
+            if (Properties.Settings.Default.MachineConfigPath is "None")
+            {
+                string alternative_path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\FileShoal\\machines.xml";
+                Console.WriteLine("Looking for machine config in alternate path: " + alternative_path);
+                if (File.Exists(alternative_path) == true)
+                {
+                    Console.WriteLine("machine config found in alternate path");
+                    Properties.Settings.Default.MachineConfigPath = alternative_path;
+                } else
+                {
+                    Console.WriteLine("machine config not found");
+                    DialogResult dialog = System.Windows.Forms.MessageBox.Show("Machine config file could not be found.\n\nPlease change path in FileShoal.exe.config", "FileShoal startup error", MessageBoxButtons.OK);
+                    if (dialog == System.Windows.Forms.DialogResult.OK)
+                    {
+                        this.Close();
+                    }
+                }
+            }
+
+            Console.WriteLine("Check if private key file exists: " + Properties.Settings.Default.PrivateKeyPath);
+            if (Properties.Settings.Default.PrivateKeyPath is "None")
+            {
+                DialogResult dialog = System.Windows.Forms.MessageBox.Show("Private-Key not configured.\n\nPlease change path in FileShoal.exe.config", "FileShoal startup error", MessageBoxButtons.OK);
+                if (dialog == System.Windows.Forms.DialogResult.OK)
+                {
+                    this.Close();
+                }
+            } else
+            {
+                if (File.Exists(Properties.Settings.Default.PrivateKeyPath) == false)
+                {
+                    DialogResult dialog = System.Windows.Forms.MessageBox.Show("Private-Key file could not be found.\nPlease change path in FileShoal.exe.config", "FileShoal startup error", MessageBoxButtons.OK);
+                    if (dialog == System.Windows.Forms.DialogResult.OK)
+                    {
+                        this.Close();
+                    }
+                }
+            }
+
             XmlSerializer serializer = new XmlSerializer(typeof(List<MachineConfiguration>));
+
             using (FileStream stream = File.OpenRead(Properties.Settings.Default.MachineConfigPath))
             {
                 machineConfig = (List<MachineConfiguration>)serializer.Deserialize(stream);

@@ -25,18 +25,6 @@ namespace FileShoal.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Public\\FileShoal\\machines.xml")]
-        public string MachineConfigPath {
-            get {
-                return ((string)(this["MachineConfigPath"]));
-            }
-            set {
-                this["MachineConfigPath"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("nc_prog")]
         public string RemotePath {
             get {
@@ -73,13 +61,25 @@ namespace FileShoal.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Public\\FileShoal\\rsa-key.ppk")]
+        [global::System.Configuration.DefaultSettingValueAttribute("None")]
         public string PrivateKeyPath {
             get {
                 return ((string)(this["PrivateKeyPath"]));
             }
             set {
                 this["PrivateKeyPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("None")]
+        public string MachineConfigPath {
+            get {
+                return ((string)(this["MachineConfigPath"]));
+            }
+            set {
+                this["MachineConfigPath"] = value;
             }
         }
     }

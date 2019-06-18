@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_2C3C5FD521484CFEA59EFB61F34FEB71"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8D0FA8A1DF4A4A30B582CF48FFBBF468"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -52,12 +58,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FC76EC2D6CD47A90390B4438470CD52B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_8D0FA8A1DF4A4A30B582CF48FFBBF468"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -65,6 +65,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_0B1DF815E546CB4DD152427F506ABFC3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_FC76EC2D6CD47A90390B4438470CD52B"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -85,6 +91,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -101,6 +123,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -122,7 +160,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.5"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.6"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=671728"
                 }
@@ -159,6 +197,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2C3C5FD521484CFEA59EFB61F34FEB71"
+            {
+            "SourcePath" = "8:..\\FileShoal\\machines.xml"
+            "TargetName" = "8:machines.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_C099F4ECAF9642A9AB702C7319136BBC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CB74FF54B9964EEAA4BF28EFFDE6E7F4"
@@ -248,7 +306,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:FALSE"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -269,6 +327,28 @@
                 {
                 }
             }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_4E9462235DFC48409D9F988BD3ED1FC4"
+            {
+            "Name" = "8:#1915"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:AppDataFolder"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_C099F4ECAF9642A9AB702C7319136BBC"
+                    {
+                    "Name" = "8:FileShoal"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_D4591B7623E740909E0FE13A493BD144"
+                        "Folders"
+                        {
+                        }
+                    }
+                }
+            }
             "{1525181F-901A-416C-8A58-119130FE478E}:_537CDACFA0C44376A99378133CE3266A"
             {
             "Name" = "8:#1919"
@@ -278,11 +358,22 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_78A1B509AA7B4690BFC3999E5211463B"
+                    {
+                    "Name" = "8:FileShoal"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_471A63D59E9C4D0FA74FB117370DA493"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_950F057406B94211AAE3136F836A6DCF"
             {
-            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFiles64Folder]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -308,21 +399,21 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:FileShoal"
-        "ProductCode" = "8:{907DED01-3254-4974-B10E-080A18351D70}"
-        "PackageCode" = "8:{07CB9F36-2462-45F9-B10D-52CC82959C23}"
+        "ProductCode" = "8:{AA1B8B86-CEF5-4CC8-80EB-9D663E8CA988}"
+        "PackageCode" = "8:{CE1788AC-5ADA-48BD-85B9-B1EC7957F9E8}"
         "UpgradeCode" = "8:{CEA0AFFD-B84D-4436-BA92-A2680F6F25B0}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.1.0"
         "Manufacturer" = "8:drunsinn"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Setup for FileShoal"
+        "Title" = "8:FileShoal Setup"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:"
+        "ARPCONTACT" = "8:drunsinn"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:Installer for FileShoal"
         "ARPURLINFOABOUT" = "8:https://github.com/drunsinn/FileShoal"
@@ -429,6 +520,48 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_07918A447EE84698BD75F1B253E2B18B"
+            {
+            "Name" = "8:README.md"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_D0016E8221604E1181E685FC69B8761B"
+            "Folder" = "8:_78A1B509AA7B4690BFC3999E5211463B"
+            "WorkingFolder" = "8:_950F057406B94211AAE3136F836A6DCF"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_9DD696508CAE40C7A1B21D4285F44C51"
+            {
+            "Name" = "8:LICENSE.rtf"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_F80625691E1D416C9130D06893E93050"
+            "Folder" = "8:_78A1B509AA7B4690BFC3999E5211463B"
+            "WorkingFolder" = "8:_950F057406B94211AAE3136F836A6DCF"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C85EC7AC901E42418F19A7254CE696D1"
+            {
+            "Name" = "8:FileShoal"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_8D0FA8A1DF4A4A30B582CF48FFBBF468"
+            "Folder" = "8:_78A1B509AA7B4690BFC3999E5211463B"
+            "WorkingFolder" = "8:_950F057406B94211AAE3136F836A6DCF"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
@@ -924,7 +1057,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8D0FA8A1DF4A4A30B582CF48FFBBF468"
             {
-            "SourcePath" = "8:..\\FileShoal\\obj\\Release\\FileShoal.exe"
+            "SourcePath" = "8:..\\FileShoal\\obj\\x64\\Release\\FileShoal.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_950F057406B94211AAE3136F836A6DCF"
